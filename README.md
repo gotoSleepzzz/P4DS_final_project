@@ -9,4 +9,4 @@ Start Project Date: December 19, 2021
 - **`19127564` Nguyễn Hữu Thông**
   - **Email:** az9thongnguyen@gmail.com
 
-**Link phân chia công việc: ** https://trello.com/b/lEIDbEK6/final-project-tasks
+**Link phân chia công việc:** https://trello.com/b/lEIDbEK6/final-project-tasks
