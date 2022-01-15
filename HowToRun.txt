@@ -1,0 +1,26 @@
+Bước 1:
+* Tải về máy các file cần thiết gồm có file min_ds-env, file dữ liệu bank.csv, file notebook .ipynb
+
+Bước 2: 
+* Kiểm tra nếu môi trường làm việc đã có min_ds-env chưa với câu lệnh trên command line:
+	 conda env list
+* Nếu đã tồn tại tiến hành bước 3
+* Nếu chưa cài đặt môi trường với câu lệnh: 
+	conda env create --file tên-file
+* Vì file môi trường ta tải về là min_ds-env.yml nên câu lệnh trên command line sẽ là :
+	conda env create --file min_ds-env.yml
+
+Bước 3:
+* Kích hoạt môi trường làm việc với câu lệnh trên command-line là:
+	conda activate min_ds-env
+
+Bước 4:
+* Đặt file notebook chung với file dữ liệu:
+	YourFolder/
+		|_Final.ipynb
+	   	|_ bank.csv
+Bước 5:
+* Mở command line gõ:
+	jupyter-notebook
+* Sau đó khi trình duyệt mở ra chọn file Final.ipynb
+* Chọn mục kernal -> restart and run all.
